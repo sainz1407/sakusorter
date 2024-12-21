@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-158769627-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'UA-158769627-1');
+  </script>
+
+
+  <link rel="shortcut icon" href="src/assets/favicon.ico" type="image/x-icon">
+  <link rel="icon" href="src/assets/favicon.ico" type="image/x-icon">
+  <meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="og:site_name" content="Sakurazaka46 Sorter">
+  <meta name="og:description" content="A simple website for sorting Sakurazaka46 idols in a formatted list.">
+  <meta name="og:image" content="https://media.discordapp.net/attachments/1021084502774255759/1318539383825104897/sakura_17344343017662.jpg?ex=676359be&is=6762083e&hm=fec1b239c2ebf791fd20312cf05a96113b98958a160d64dacaa01608393b4d1d&=&format=webp&width=576&height=576">
+  
+  <!--  Non-Essential, But Recommended -->
+  <meta property="og:description" content="A simple website for sorting Sakurazaka46 favorite members in a formatted list.">
+  <meta property="og:site_name" content="Sakurazaka46 Sorter">
+  <meta name="twitter:image:alt" content="Sakurazaka46 Sorter">
+  
+  <!--  Non-Essential, But Required for Analytics -->
+  <!-- <meta property="fb:app_id" content="your_app_id" /> -->
+  <meta name="twitter:site" content="Skipper1407">
+  <title>Sakurazaka46 Sorter</title>
+  
+  <!-- <link rel="stylesheet" type="text/css" href="src/css/reset.css"> -->
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="src/css/custom_checkbox_css.css">
+  <link rel="stylesheet" type="text/css" href="src/css/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <script src="src/js/data.js"></script>
+  <script src="src/js/data/2024-12-18.js"></script>
+  <script src="src/js/html2canvas.min.js"></script>
+  <script src="src/js/lz-string.min.js"></script>
+  <script src="src/js/seedrandom.min.js"></script>
+  <script src="src/js/main.js"></script>
+	
+	
+	<!-- jQuery library -->
+	<script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+	
+</head>
+
+<body>
+	<header class="custom-header">
+		<div class="header-container">
+		  <div class="header-left">
+			<img src="https://i.ibb.co.com/Kqd3NgH/1200px-Sakurazaka46-logo-svg.png" alt="saku logo" class="header-logo">
+		  </div>
+		  <div class="header-center">
+			<h1 class="header-title">SAKURAZAKA46 FANPAGE WEB SORTER</h1>
+		  </div>
+		</div>
+	  </header>
+	  <main style="margin-top: 70px; padding: 20px; text-align: center;">
+        <!-- <p>Welcome to the Sakurazaka46 Fanpage Web Sorter!</p> -->
+    </main>
+	<div class="container">
+		<div class="row header mb-2">
+			<!-- <img class="d-xl-none col-12 px-0" src="src/assets/header.jpg">
+			<img class="d-none d-xl-block col-12 px-0" src="src/assets/header.jpg"> -->
+		</div>
+		<div class="row">
+			<div class="col sorter-body">
+				<!-- progress bar -->
+				<div class="row sorter-progress">
+					<div class="progress-container mt-0 mb-1 pb-2 col d-none sorter-container">
+						<span class="progressbattle"></span>
+						<div class="progressbar">
+							<div class="progressfill">
+								<span class="progresstext m-auto"></span>
+							</div>
+						</div>
+					</div>
+				</div>
+				
+				<div class="row sorter text-center mb-3">
+					<div class="col-4 p-1 sorter-container ml-auto">
+						<img class="left sort image px-0" src="src/assets/SakuSortL.jpg">
+						<div class="left sort text">
+							<p class="character-name"></p>
+							<div class="px-2 pt-1 pb-0 border-r col search-container d-none">
+								<div class="v-card__text pa-0 text-center">
+									<i aria-hidden="true" class="v-icon notranslate mdi mdi-magnify theme--light" style="font-size: 16px;"></i>
+									<a href="#" class="search-link" target="_blank" rel="noopener noreferrer">Google "<span class="search-name"></span>"</a>
+								</div>
+							</div>
+						</div>
+						<iframe class="spotify left d-none" src="" width="80" height="80" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+					</div>
+					<div class="col-4 px-0">
+						<div class="row h-100 mx-1">
+						
+							<div id="three-one" class="col-12 my-1 p-1 sorter-container">
+								<div class="d-flex justify-content-center align-items-center starting start button text">Click to Start!</div>
+								<div class="row align-items-center loading button text d-none mx-auto">
+									<div class="col-12">
+										<div class="row animated-circle mx-auto"></div>
+										<div class="row justify-content-center pt-3"><span>Loading...</span></div>
+									</div>
+								</div>
+								<div class="justify-content-center align-items-center sorting undo button text d-none">Undo</div>
+								<div class="justify-content-center align-items-center finished save button text d-none">Generate Result URL</div>
+							</div>
+							<div id="three-two" class="col-12 p-1 sorter-container d-none">
+								<div class="justify-content-center align-items-center starting load button text">Load&nbsp<span></span></div>
+								<div class="justify-content-center align-items-center sorting save button text d-none">Save Progress</div>
+								<div class="justify-content-center align-items-center finished getimg button text d-none">Generate Image</div>
+							</div>
+							<div id="three-three" class="col-12 my-1 p-1 sorter-container d-none">
+								<div class="justify-content-center align-items-center finished list button text d-none">Generate Text List</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-4 p-1 sorter-container mr-auto">
+						<img class="right sort image" src="src/assets/SakuLogoR.jpg">
+						<div class="right sort text">
+							<p class="character-name"></p>
+							<div class="px-2 pt-1 pb-0 border-r col search-container d-none">
+								<div class="v-card__text pa-0 text-center">
+									<i aria-hidden="true" class="v-icon notranslate mdi mdi-magnify theme--light" style="font-size: 16px;"></i>
+									<a href="#" class="search-link" target="_blank" rel="noopener noreferrer">Google "<span class="search-name"></span>"</a>
+								</div>
+							</div>
+						</div>
+						<iframe class="spotify right d-none" src="" width="80" height="80" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-12">
+					  <div class="options">
+					  </div>
+					</div>
+				</div>
+				<br>
+				<div class="row sorter-options">
+					<div class="col options-container">
+						<div class="row options mx-auto"></div>
+					</div>
+				</div>
+				<div class="row sorter-result-options d-none justify-content-center">
+					<div class="col result-container px-0">
+						<div class="d-flex image selector">Display Images on Result: </div>
+						<div class="results sorter-container row px-0 pt-1 pb-0 mx-0"></div>
+						<div class="time taken"></div>
+					</div>
+				</div>
+				<div class="row sorter-footer info">
+					<div class="col footer-container">
+						<hr class="row">
+						<div class="row justify-content-center">
+							<a class="mr-1" href="https://discordapp.com/users/475210989353173004">Contact</a> | <a class="mx-1" href="https://x.com/Skipper1407">Twitter</a> | <a class=mx-2 href="https://github.com/sainz1407">Github</a> | <a class="clearsave ml-1">Clear Save Data</a>
+						</div>
+						
+						<div class="row justify-content-center mt-2 mx-auto">
+							<p class="text-center mb-0">Sorter for Sakurazaka46 members. Pick your sub-groups, and hit the Start button.</p>
+						</div>
+						
+						<div class="row justify-content-center mt-1 mx-auto">
+							<p class="text-center mb-0">Click on the member you like better from the two simply by clicking on their pictures.</p>
+						</div>
+
+						<p class="mt-3 text-center">Credits to<a href="https://suzukiayane.github.io/nogisorter/"> suzukiayane</a> & <a href="https://github.com/execfera/charasort/">execfera</a> for the source code.</p>
+
+						<p class="mt-3 text-center">December 17, 2024 - Sakurazaka46 Sorter by Sainz</p>
+					</div>
+				</div>
+				
+			</div>
+		</div>
+	</div>
+	
+</body>
+
+</html>
