@@ -80,7 +80,7 @@ dataSet[dataSetVersion].characterData = [
     name: "Uemura Rina",
     img: "akb48/images/4/42/Uemura_Rina_S46_Oct_2024.jpg",
     opts: {
-      groups: ["1gen"],
+      groups: ["1grad"],
       // sub_unit: [""], activity_status: ["graduated"]
     }
   },
