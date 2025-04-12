@@ -96,7 +96,7 @@ dataSet[dataSetVersion].characterData = [
     name: "Koike Minami",
     img: "akb48/images/7/7c/Koike_Minami_S46_Feb_2025.jpg",
     opts: {
-      groups: ["1gen"],
+      groups: ["1grad"],
       // sub_unit: [""], activity_status: ["active"]
     }
   },
