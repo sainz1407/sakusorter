@@ -8,9 +8,9 @@ dataSet[dataSetVersion].options = [
     tooltip: "Check this to restrict to certain groups.",
     checked: true,
     sub: [
-        { name: "1st Generation", key: "1gen" },
         { name: "2nd Generation", key: "2gen" },
         { name: "3rd Generation", key: "3gen" },
+        { name: "4th Generation", key: "4gen" },
         { name: "1st Gen Graduates", key: "1grad", checked: false },
         { name: "2nd Gen Graduates", key: "2grad", checked: false },
     ]
@@ -371,6 +371,78 @@ dataSet[dataSetVersion].characterData = [
 	img: "akb48/images/6/60/Yamashita_Shizuki_S46_Feb_2025.jpg",
 	opts: {
 	  groups: ["3gen"],
+	  // sub_unit: [""], activity_status: ["active"]
+	}
+  },
+  {
+  name: "Asai Konomi",
+  img: "akb48/images/2/26/Asai_Konomi_S46_June_2025.jpg",
+  opts: {
+    groups: ["4gen"],
+    // sub_unit: [""], activity_status: ["active"]
+    }
+  },
+  {
+  name: "Inaguma Hina",
+  img: "akb48/images/1/12/Inaguma_Hina_S46_June_2025.jpg",
+  opts: {
+    groups: ["4gen"],
+    // sub_unit: [""], activity_status: ["active"]
+  }
+  },
+  {
+  name: "Katsumata Haru",
+  img: "akb48/images/d/d2/Katsumata_Haru_S46_June_2025.jpg",
+  opts: {
+    groups: ["4gen"],
+    // sub_unit: [""], activity_status: ["active"]
+  }
+  },
+  {
+  name: "Sato Neo",
+  img: "akb48/images/f/f1/Sato_Neo_S46_June_2025.jpg",
+  opts: {
+    groups: ["4gen"],
+    // sub_unit: [""], activity_status: ["active"]
+  }
+  },
+  {
+  name: "Nakagawa Chihiro",
+  img: "akb48/images/f/f3/Nakagawa_Chihiro_S46_June_2025.jpg",
+  opts: {
+    groups: ["4gen"],
+    // sub_unit: [""], activity_status: ["active"]
+  }
+  },
+  {
+    name: "Matsumoto Wako",
+    img: "akb48/images/4/45/Matsumoto_Wako_S46_June_2025.jpg",
+    opts: {
+      groups: ["4gen"],
+      // sub_unit: [""], activity_status: ["active"]
+    }
+  },
+  {
+	name: "Meguro Hiiro",
+	img: "akb48/images/0/07/Meguro_Hiiro_S46_June_2025.jpg",
+	opts: {
+	  groups: ["4gen"],
+	  // sub_unit: [""], activity_status: ["active"]
+	}
+  },
+  {
+  name: "Yamakawa Ui",
+  img: "akb48/images/5/5c/Yamakawa_Ui_S46_June_2025.jpg",
+  opts: {
+    groups: ["4gen"],
+    // sub_unit: [""], activity_status: ["active"]
+  }
+  },
+  {
+	name: "Yamada Momomi",
+	img: "akb48/images/6/6d/Yamada_Momomi_S46_June_2025.jpg",
+	opts: {
+	  groups: ["4gen"],
 	  // sub_unit: [""], activity_status: ["active"]
 	}
   }

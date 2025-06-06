@@ -127,8 +127,23 @@ function init() {
   /** Decode query string if available. */
   if (window.location.search.slice(1) !== '') decodeQuery();
   populateOptions();
-}
 
+  // Add event listeners for search links
+  document.querySelectorAll('.search-link').forEach(link => {
+    link.addEventListener('click', function(e) {
+      e.preventDefault();
+      const characterName = this.closest('.sort.text').querySelector('.character-name').textContent;
+      if (characterName) {
+        window.open(`https://www.google.com/search?q=${encodeURIComponent(characterName)}&tbm=isch`, '_blank');
+      }
+    });
+  });
+}
+// function updateSearchLinks(characterName, containerSelector) {
+//   const link = document.querySelector(containerSelector + ' .search-link');
+//   link.href = `https://www.google.com/search?q=${encodeURIComponent(characterName)}&tbm=isch`;
+//   link.querySelector('.search-name').textContent = characterName;
+// }
 /** Begin sorting. */
 function start() {
   /** Copy data into sorting array to filter. */
@@ -151,7 +166,7 @@ function start() {
   });
   const optionsContainer = document.querySelector('.options');
   if (optionsContainer) {
-    optionsContainer.style.display = 'none'; // Menyembunyikan checkbox
+    optionsContainer.style.display = 'none'; // hide checkbox
   }
 
   /** Convert boolean array form to string form. */
@@ -293,6 +308,11 @@ function start() {
 		*/
     display();
   });
+  
+  // Show search containers
+  document.querySelectorAll('.search-container').forEach(container => {
+    container.classList.remove('d-none');
+  });
 }
 
 /** Displays the current state of the sorter. */
@@ -333,11 +353,7 @@ function display() {
     }
   } else { saveProgress('Autosave'); }
 }
-function updateSearchLinks(characterName, containerSelector) {
-  const link = document.querySelector(containerSelector + ' .search-link');
-  link.href = `https://www.google.com/search?q=${encodeURIComponent(characterName)}&tbm=isch`;
-  link.querySelector('.search-name').textContent = characterName;
-}
+
 /**
  * Sort between two character choices or tie.
  * 
