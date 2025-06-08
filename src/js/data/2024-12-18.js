@@ -263,7 +263,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Morita Hikaru",
-    img: "akb48/images/1/17/Morita_Hikaru_S46_June_2025.jp",
+    img: "akb48/images/1/17/Morita_Hikaru_S46_June_2025.jpg",
     opts: {
       groups: ["2gen"],
       // sub_unit: [""], activity_status: ["active"]
