@@ -304,7 +304,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Odakura Reina",
-    img: "akb48/images/a/a2/Odakura_Reina_S46_Oct_2025.jpg4",
+    img: "akb48/images/a/a2/Odakura_Reina_S46_Oct_2025.jpg",
     opts: {
       groups: ["3gen"],
       // sub_unit: [""], activity_status: ["active"]
@@ -384,7 +384,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
   name: "Inaguma Hina",
-  img: "akb48/images/1/19/Inaguma_Hina_S46_Oct_2025.jpg4",
+  img: "akb48/images/1/19/Inaguma_Hina_S46_Oct_2025.jpg",
   opts: {
     groups: ["4gen"],
     // sub_unit: [""], activity_status: ["active"]
@@ -447,4 +447,5 @@ dataSet[dataSetVersion].characterData = [
 	}
   }
 ]
+
 
