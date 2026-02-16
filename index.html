@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <!-- Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-158769627-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'UA-158769627-1');
+  </script>
+
+  <link rel="shortcut icon" href="src/assets/favicon.ico" type="image/x-icon">
+  <link rel="icon" href="src/assets/favicon.ico" type="image/x-icon">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="og:site_name" content="Sakurazaka46 Sorter">
+  <meta name="og:description" content="A simple website for sorting Sakurazaka46 idols in a formatted list.">
+  <meta name="og:image" content="https://media.discordapp.net/attachments/1021084502774255759/1318539383825104897/sakura_17344343017662.jpg?ex=676359be&is=6762083e&hm=fec1b239c2ebf791fd20312cf05a96113b98958a160d64dacaa01608393b4d1d&=&format=webp&width=576&height=576">
+  <meta property="og:description" content="A simple website for sorting Sakurazaka46 favorite members in a formatted list.">
+  <meta property="og:site_name" content="Sakurazaka46 Sorter">
+  <meta name="twitter:image:alt" content="Sakurazaka46 Sorter">
+  <meta name="twitter:site" content="Skipper1407">
+  <title>Sakurazaka46 Sorter</title>
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Noto+Sans+JP:wght@400;500;700&display=swap" rel="stylesheet">
+
+  <!-- Bootstrap 4 Grid -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="src/css/custom_checkbox_css.css">
+  <link rel="stylesheet" type="text/css" href="src/css/styles.css">
+
+  <script src="src/js/data.js"></script>
+  <script src="src/js/data/2024-12-18.js"></script>
+  <script src="src/js/html2canvas.min.js"></script>
+  <script src="src/js/lz-string.min.js"></script>
+  <script src="src/js/seedrandom.min.js"></script>
+  <script src="src/js/main.js"></script>
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <!-- Floating sakura petals background -->
+  <div class="bg-petals" aria-hidden="true">
+    <div class="petal p1"></div>
+    <div class="petal p2"></div>
+    <div class="petal p3"></div>
+    <div class="petal p4"></div>
+    <div class="petal p5"></div>
+    <div class="petal p6"></div>
+  </div>
+
+  <!-- Header -->
+  <header class="custom-header">
+    <div class="header-container">
+      <div class="header-left">
+        <img src="/src/assets/1200px-Sakurazaka46_logo.png" alt="Sakurazaka46 logo" class="header-logo">
+      </div>
+      <div class="header-center">
+        <h1 class="header-title">SAKURAZAKA46 SORTER</h1>
+        <p class="header-subtitle">Pick your favorite members</p>
+      </div>
+      <button class="theme-toggle" id="themeToggle" aria-label="Toggle theme">
+        <span class="theme-toggle-thumb">&#127769;</span>
+      </button>
+    </div>
+  </header>
+
+  <!-- Main -->
+  <main class="main-content">
+    <div class="container">
+      <div class="row">
+        <div class="col sorter-body">
+
+          <!-- Progress -->
+          <div class="row sorter-progress">
+            <div class="progress-container mt-0 mb-3 col d-none sorter-container">
+              <span class="progressbattle"></span>
+              <div class="progressbar">
+                <div class="progressfill">
+                  <span class="progresstext m-auto"></span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Sorter -->
+          <div class="row sorter text-center mb-3">
+            <!-- Left -->
+            <div class="col-4 p-1 sorter-container ml-auto character-card">
+              <img class="left sort image px-0" src="src/assets/SakuSortL.jpg">
+              <div class="left sort text">
+                <p class="character-name"></p>
+                <div class="px-2 pt-1 pb-0 border-r col search-container d-none">
+                  <div class="v-card__text pa-0 text-center">
+                    <a href="#" class="search-link" target="_blank" rel="noopener noreferrer">
+                      <span class="search-icon">&#128269;</span>
+                      <span class="search-text">Search</span>
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <iframe class="spotify left d-none" src="" width="80" height="80" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+            </div>
+
+            <!-- Center buttons -->
+            <div class="col-4 px-0">
+              <div class="row h-100 mx-1">
+                <div id="three-one" class="col-12 my-1 p-1 sorter-container action-btn">
+                  <div class="d-flex justify-content-center align-items-center starting start button text">
+                    <span class="btn-icon"></span> Click to Start!
+                  </div>
+                  <div class="row align-items-center loading button text d-none mx-auto">
+                    <div class="col-12">
+                      <div class="spinner mx-auto"></div>
+                      <div class="row justify-content-center pt-3"><span>Loading...</span></div>
+                    </div>
+                  </div>
+                  <div class="justify-content-center align-items-center sorting undo button text d-none">
+                    <span class="btn-icon">&#8634;</span> Undo
+                  </div>
+                  <div class="justify-content-center align-items-center finished save button text d-none">
+                    <span class="btn-icon">&#128279;</span> Share Result
+                  </div>
+                </div>
+                <div id="three-two" class="col-12 p-1 sorter-container action-btn d-none">
+                  <div class="justify-content-center align-items-center starting load button text">
+                    <span class="btn-icon"></span> Load&nbsp;<span class="save-type-label"></span>
+                  </div>
+                  <div class="justify-content-center align-items-center sorting save button text d-none">
+                    <span class="btn-icon">&#128190;</span> Save Progress
+                  </div>
+                  <div class="justify-content-center align-items-center finished getimg button text d-none">
+                    <span class="btn-icon">&#128247;</span> Generate Image
+                  </div>
+                </div>
+                <div id="three-three" class="col-12 my-1 p-1 sorter-container action-btn d-none">
+                  <div class="justify-content-center align-items-center finished list button text d-none">
+                    <span class="btn-icon">&#128203;</span> Text List
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Right -->
+            <div class="col-4 p-1 sorter-container mr-auto character-card">
+              <img class="right sort image" src="src/assets/SakuLogoR.jpg">
+              <div class="right sort text">
+                <p class="character-name"></p>
+                <div class="px-2 pt-1 pb-0 border-r col search-container d-none">
+                  <div class="v-card__text pa-0 text-center">
+                    <a href="#" class="search-link" target="_blank" rel="noopener noreferrer">
+                      <span class="search-icon">&#128269;</span>
+                      <span class="search-text">Search</span>
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <iframe class="spotify right d-none" src="" width="80" height="80" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+            </div>
+          </div>
+
+          <!-- Options -->
+          <div class="row">
+            <div class="col-12">
+              <div class="options"></div>
+            </div>
+          </div>
+          <div class="row sorter-options">
+            <div class="col options-container">
+              <div class="row options mx-auto"></div>
+            </div>
+          </div>
+
+          <!-- Results -->
+          <div class="row sorter-result-options d-none justify-content-center">
+            <div class="col result-container px-0">
+              <div class="d-flex image selector">Display Images on Result: </div>
+              <div class="results sorter-container row px-0 pt-1 pb-0 mx-0"></div>
+              <div class="time taken"></div>
+            </div>
+          </div>
+
+          <!-- Footer -->
+          <div class="row sorter-footer info">
+            <div class="col footer-container">
+              <hr class="footer-divider">
+              <div class="footer-links">
+                <a href="https://discordapp.com/users/475210989353173004" class="footer-link">Contact</a>
+                <span class="footer-dot">&middot;</span>
+                <a href="https://x.com/Skipper1407" class="footer-link">Twitter</a>
+                <span class="footer-dot">&middot;</span>
+                <a href="https://github.com/sainz1407" class="footer-link">Github</a>
+                <span class="footer-dot">&middot;</span>
+                <a class="clearsave footer-link">Clear Save</a>
+              </div>
+              <div class="footer-desc">
+                <p>Sorter for Sakurazaka46 members. Pick your sub-groups, and hit Start.</p>
+                <p>Click the member you prefer from the two choices shown.</p>
+              </div>
+              <p class="footer-credits">Credits to <a href="https://suzukiayane.github.io/nogisorter/">suzukiayane</a> & <a href="https://github.com/execfera/charasort/">execfera</a> for the source code.</p>
+              <p class="footer-version">© 2024-2026 &mdash; Sakurazaka46 Sorter by Sainz</p>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </main>
+</body>
+</html>

@@ -1,0 +1,87 @@
+/* ===========================
+   Custom Checkbox — Dark Glass Style
+   =========================== */
+
+:root {
+  --form-control-color: #ec4899;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+form {
+  display: grid;
+  place-content: center;
+  min-height: 100vh;
+}
+
+.form-control {
+  font-weight: 600;
+  font-size: 100%;
+  line-height: 1.4;
+  display: grid;
+  grid-template-columns: 1em auto;
+  gap: 0.6em;
+}
+
+.form-control + .form-control {
+  margin-top: 1em;
+}
+
+.form-control--disabled {
+  color: #7a6b78;
+  cursor: not-allowed;
+}
+
+input[type="checkbox"] {
+  -webkit-appearance: none;
+  appearance: none;
+  background-color: rgba(255, 255, 255, 0.06);
+  margin: 0;
+  font: inherit;
+  color: currentColor;
+  width: 1.2em;
+  height: 1.2em;
+  border: 2px solid rgba(255, 255, 255, 0.15);
+  border-radius: 5px;
+  transform: translateY(-0.075em);
+  display: grid;
+  place-content: center;
+  transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+input[type="checkbox"]:hover {
+  border-color: var(--form-control-color);
+  background-color: rgba(236, 72, 153, 0.1);
+}
+
+input[type="checkbox"]::before {
+  content: "";
+  width: 0.65em;
+  height: 0.65em;
+  clip-path: polygon(14% 44%, 0 65%, 50% 100%, 100% 16%, 80% 0%, 43% 62%);
+  transform: scale(0);
+  transform-origin: bottom left;
+  transition: 150ms transform cubic-bezier(0.4, 0, 0.2, 1);
+  box-shadow: inset 1em 1em var(--form-control-color);
+  background-color: CanvasText;
+}
+
+input[type="checkbox"]:checked {
+  border-color: var(--form-control-color);
+  background-color: rgba(236, 72, 153, 0.15);
+}
+
+input[type="checkbox"]:checked::before {
+  transform: scale(1);
+}
+
+input[type="checkbox"]:disabled {
+  --form-control-color: #5c5260;
+  color: #7a6b78;
+  cursor: not-allowed;
+  opacity: 0.6;
+}
