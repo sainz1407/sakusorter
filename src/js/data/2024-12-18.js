@@ -175,7 +175,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Endo Hikari",
-    img: "akb48/images/6/65/Endo_Hikari_S46_Oct_2025.jpg",
+    img: "akb48/images/c/ca/Endo_Hikari_S46_Feb_2026.jpg",
     opts: {
       groups: [ "2gen" ],
       // sub_unit: [""], activity_status: ["active"]
@@ -183,7 +183,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Ozono Rei",
-    img: "akb48/images/f/fd/Ozono_Rei_S46_Oct_2025.jpg",
+    img: "akb48/images/f/f2/Ozono_Rei_S46_Feb_2026.jpg",
     opts: {
       groups: [ "2gen" ],
       // sub_unit: [""], activity_status: ["active"]
@@ -191,7 +191,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Onuma Akiho",
-    img: "akb48/images/4/40/Onuma_Akiho_S46_Oct_2025.jpg",
+    img: "akb48/images/e/e4/Onuma_Akiho_S46_Feb_2026.jpg",
     opts: {
       groups: ["2gen"],
       // sub_unit: [""], activity_status: ["active"]
@@ -199,7 +199,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Kousaka Marino",
-    img: "akb48/images/0/03/Kousaka_Marino_S46_Oct_2025.jpg",
+    img: "akb48/images/d/dc/Kousaka_Marino_S46_Feb_2026.jpg",
     opts: {
       groups: ["2gen"],
       sub_unit: ["", ""], activity_status: ["active"]
@@ -215,7 +215,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Takemoto Yui",
-    img: "akb48/images/2/25/Takemoto_Yui_S46_Oct_2025.jpg",
+    img: "akb48/images/c/c4/Takemoto_Yui_S46_Feb_2026.jpg",
     opts: {
       groups: ["2gen"],
       // sub_unit: [""], activity_status: ["active"]
@@ -223,7 +223,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Tamura Hono",
-    img: "akb48/images/4/4c/Tamura_Hono_S46_Oct_2025.jpg",
+    img: "akb48/images/2/26/Tamura_Hono_S46_Feb_2026.jpg",
     opts: {
       groups: ["2gen"],
       sub_unit: ["", ""], activity_status: ["active"]
@@ -231,7 +231,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Fujiyoshi Karin",
-    img: "akb48/images/3/34/Fujiyoshi_Karin_S46_Oct_2025.jpg",
+    img: "akb48/images/7/77/Fujiyoshi_Karin_S46_Feb_2026.jpg",
     opts: {
       groups: ["2gen"],
       // sub_unit: [""], activity_status: ["active"]
@@ -239,7 +239,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Masumoto Kira",
-    img: "akb48/images/8/88/Masumoto_Kira_S46_Oct_2025.jpg",
+    img: "akb48/images/9/9c/Masumoto_Kira_S46_Feb_2026.jpg",
     opts: {
       groups: ["2gen"],
       // sub_unit: [""], activity_status: ["active"]
@@ -247,7 +247,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Matsuda Rina",
-    img: "akb48/images/d/d5/Matsuda_Rina_S46_Oct_2025.jpg",
+    img: "akb48/images/9/9e/Matsuda_Rina_S46_Feb_2026.jpg",
     opts: {
       groups: ["2gen"],
       // sub_unit: [""], activity_status: ["active"]
@@ -263,7 +263,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Morita Hikaru",
-    img: "akb48/images/1/11/Morita_Hikaru_S46_Oct_2025.jpg",
+    img: "akb48/images/7/71/Morita_Hikaru_S46_Feb_2026.jpg",
     opts: {
       groups: ["2gen"],
       // sub_unit: [""], activity_status: ["active"]
@@ -271,7 +271,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Moriya Rena",
-    img: "akb48/images/8/8b/Moriya_Rena_S46_Oct_2025.jpg",
+    img: "akb48/images/3/3c/Moriya_Rena_S46_Feb_2026.jpg",
     opts: {
       groups: ["2gen"],
       // sub_unit: [""], activity_status: ["active"]
@@ -279,7 +279,7 @@ dataSet[dataSetVersion].characterData = [
   }, 
   {
     name: "Yamasaki Ten",
-    img: "akb48/images/b/b9/Yamasaki_Ten_S46_Oct_2025.jpg",
+    img: "akb48/images/a/ad/Yamasaki_Ten_S46_Feb_2026.jpg",
     opts: {
       groups: ["2gen"],
       // sub_unit: [""], activity_status: ["active"]
@@ -288,7 +288,7 @@ dataSet[dataSetVersion].characterData = [
   //3rd gen
   {
     name: "Ishimori Rika",
-    img: "akb48/images/7/7f/Ishimori_Rika_S46_Oct_2025.jpg",
+    img: "akb48/images/0/00/Ishimori_Rika_S46_Feb_2026.jpg",
     opts: {
       groups: ["3gen"],
       // sub_unit: [""], activity_status: ["active"]
@@ -296,7 +296,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Endo Riko",
-    img: "akb48/images/3/3f/Endo_Riko_S46_Oct_2025.jpg",
+    img: "akb48/images/6/68/Endo_Riko_S46_Feb_2026.jpg",
     opts: {
       groups: ["3gen"],
       // sub_unit: [""], activity_status: ["active"]
@@ -304,7 +304,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Odakura Reina",
-    img: "akb48/images/a/a2/Odakura_Reina_S46_Oct_2025.jpg",
+    img: "akb48/images/8/8c/Odakura_Reina_S46_Feb_2026.jpg",
     opts: {
       groups: ["3gen"],
       // sub_unit: [""], activity_status: ["active"]
@@ -312,7 +312,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Kojima Nagisa",
-    img: "akb48/images/a/a8/Kojima_Nagisa_S46_Oct_2025.jpg",
+    img: "akb48/images/c/c5/Kojima_Nagisa_S46_Feb_2026.jpg",
     opts: {
       groups: ["3gen"],
       // sub_unit: [""], activity_status: ["active"]
@@ -320,7 +320,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Taniguchi Airi",
-    img: "akb48/images/f/f5/Taniguchi_Airi_S46_Oct_2025.jpg",
+    img: "akb48/images/6/6b/Taniguchi_Airi_S46_Feb_2026.jpg",
     opts: {
       groups: ["3gen"],
       // sub_unit: [""], activity_status: ["active"]
@@ -328,7 +328,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Nakashima Yuzuki",
-    img: "akb48/images/8/8a/Nakashima_Yuzuki_S46_Oct_2025.jpg",
+    img: "akb48/images/0/02/Nakashima_Yuzuki_S46_Feb_2026.jpg",
     opts: {
       groups: ["3gen"],
       // sub_unit: [""], activity_status: ["graduated"]
@@ -336,7 +336,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Matono Mio",
-    img: "akb48/images/0/06/Matono_Mio_S46_Oct_2025.jpg",
+    img: "akb48/images/4/45/Matono_Mio_S46_Feb_2026.jpg",
     opts: {
       groups: ["3gen"],
       // sub_unit: [""], activity_status: ["active"]
@@ -344,7 +344,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Mukai Itoha",
-    img: "akb48/images/9/9d/Mukai_Itoha_S46_Oct_2025.jpg",
+    img: "akb48/images/2/22/Mukai_Itoha_S46_Feb_2026.jpg",
     opts: {
       groups: ["3gen"],
       // sub_unit: [""], activity_status: ["active"]
@@ -352,7 +352,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Murai Yu",
-    img: "akb48/images/e/ee/Murai_Yu_S46_Oct_2025.jpg",
+    img: "akb48/images/f/f8/Murai_Yu_S46_Feb_2026.jpg",
     opts: {
       groups: ["3gen"],
       // sub_unit: [""], activity_status: ["active"]
@@ -360,7 +360,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Murayama Miu",
-    img: "akb48/images/3/33/Murayama_Miu_S46_Oct_2025.jpg",
+    img: "akb48/images/a/a2/Murayama_Miu_S46_Feb_2026.jpg",
     opts: {
       groups: ["3gen"],
       // sub_unit: [""], activity_status: ["active"]
@@ -368,7 +368,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
 	name: "Yamashita Shizuki",
-	img: "akb48/images/9/92/Yamashita_Shizuki_S46_Oct_2025.jpg",
+	img: "akb48/images/d/d9/Yamashita_Shizuki_S46_Feb_2026.jpg",
 	opts: {
 	  groups: ["3gen"],
 	  // sub_unit: [""], activity_status: ["active"]
@@ -376,7 +376,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
   name: "Asai Konomi",
-  img: "akb48/images/3/3d/Asai_Konomi_S46_Oct_2025.jpg",
+  img: "akb48/images/0/01/Asai_Konomi_S46_Feb_2026.jpg",
   opts: {
     groups: ["4gen"],
     // sub_unit: [""], activity_status: ["active"]
@@ -384,7 +384,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
   name: "Inaguma Hina",
-  img: "akb48/images/1/19/Inaguma_Hina_S46_Oct_2025.jpg",
+  img: "akb48/images/8/87/Inaguma_Hina_S46_Feb_2026.jpg",
   opts: {
     groups: ["4gen"],
     // sub_unit: [""], activity_status: ["active"]
@@ -392,7 +392,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
   name: "Katsumata Haru",
-  img: "akb48/images/b/b8/Katsumata_Haru_S46_Oct_2025.jpg",
+  img: "akb48/images/0/05/Katsumata_Haru_S46_Feb_2026.jpg",
   opts: {
     groups: ["4gen"],
     // sub_unit: [""], activity_status: ["active"]
@@ -400,7 +400,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
   name: "Sato Neo",
-  img: "akb48/images/6/61/Sato_Neo_S46_Oct_2025.jpg",
+  img: "akb48/images/9/9b/Sato_Neo_S46_Feb_2026.jpg",
   opts: {
     groups: ["4gen"],
     // sub_unit: [""], activity_status: ["active"]
@@ -408,7 +408,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
   name: "Nakagawa Chihiro",
-  img: "akb48/images/0/0e/Nakagawa_Chihiro_S46_Oct_2025.jpg",
+  img: "akb48/images/7/73/Nakagawa_Chihiro_S46_Feb_2026.jpg",
   opts: {
     groups: ["4gen"],
     // sub_unit: [""], activity_status: ["active"]
@@ -416,7 +416,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Matsumoto Wako",
-    img: "akb48/images/e/e7/Matsumoto_Wako_S46_Oct_2025.jpg",
+    img: "akb48/images/5/58/Matsumoto_Wako_S46_Feb_2026.jpg",
     opts: {
       groups: ["4gen"],
       // sub_unit: [""], activity_status: ["active"]
@@ -424,7 +424,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
 	name: "Meguro Hiiro",
-	img: "akb48/images/8/83/Meguro_Hiiro_S46_Oct_2025.jpg",
+	img: "akb48/images/8/8f/Meguro_Hiiro_S46_Feb_2026.jpg",
 	opts: {
 	  groups: ["4gen"],
 	  // sub_unit: [""], activity_status: ["active"]
@@ -432,7 +432,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
   name: "Yamakawa Ui",
-  img: "akb48/images/d/d3/Yamakawa_Ui_S46_Oct_2025.jpg",
+  img: "akb48/images/0/0e/Yamakawa_Ui_S46_Feb_2026.jpg",
   opts: {
     groups: ["4gen"],
     // sub_unit: [""], activity_status: ["active"]
@@ -440,7 +440,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
 	name: "Yamada Momomi",
-	img: "akb48/images/9/9b/Yamada_Momomi_S46_Oct_2025.jpg",
+	img: "akb48/images/a/ac/Yamada_Momomi_S46_Feb_2026.jpg",
 	opts: {
 	  groups: ["4gen"],
 	  // sub_unit: [""], activity_status: ["active"]
