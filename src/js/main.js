@@ -141,7 +141,7 @@ function init() {
 
   // Theme toggle
   const themeToggle = document.getElementById('themeToggle');
-  const savedTheme = localStorage.getItem('sakusorter-theme') || 'dark';
+  const savedTheme = localStorage.getItem('sakusorter-theme') || 'light';
   document.documentElement.setAttribute('data-theme', savedTheme);
   updateThemeIcon(savedTheme);
 
@@ -756,9 +756,52 @@ function generateImage() {
   const filename = 'sort-' + (new Date(timeFinished - tzoffset)).toISOString().slice(0, -5).replace('T', '(') + ').png';
 
   const isDark = document.documentElement.getAttribute('data-theme') === 'dark';
-  const bgColor = isDark ? '#0e0e14' : '#f8f0f4';
+  const bgColor  = isDark ? '#0e0e14' : '#f8f0f4';
+  const cardBg   = isDark ? '#1a1a24' : '#ede8ee';
+  const kamiBg   = isDark ? 'rgba(236,72,153,0.12)' : '#fde8f2';
+  const kamiBorder = isDark ? 'rgba(236,72,153,0.35)' : '#e879a8';
+  const kamiColor = isDark ? '#f472b6' : '#be185d';
+  const imgColor  = isDark ? '#e8d5e0' : '#1f2937';
+  const resColor  = isDark ? '#b8a5b5' : '#374151';
 
-  html2canvas(document.querySelector('.results'), { backgroundColor: bgColor }).then(canvas => {
+  const resultsEl = document.querySelector('.results');
+  const saved = [];
+
+  const saveAndSet = (el, props) => {
+    const entry = { el, prev: {} };
+    props.forEach(([prop, val]) => {
+      entry.prev[prop] = el.style.getPropertyValue(prop);
+      el.style.setProperty(prop, val, 'important');
+    });
+    saved.push(entry);
+  };
+
+  if (!isDark) {
+    resultsEl.querySelectorAll('.result-mcontainer').forEach(el => {
+      saveAndSet(el, [['background', cardBg], ['backdrop-filter', 'none'], ['border', '1px solid rgba(190,24,93,0.15)']]);
+    });
+    resultsEl.querySelectorAll('.result-kami-card').forEach(el => {
+      saveAndSet(el, [['background', kamiBg], ['border', '2px solid ' + kamiBorder]]);
+    });
+    resultsEl.querySelectorAll('.result-kami-name').forEach(el => {
+      saveAndSet(el, [['color', kamiColor]]);
+    });
+    resultsEl.querySelectorAll('.result-img-name').forEach(el => {
+      saveAndSet(el, [['color', imgColor]]);
+    });
+    resultsEl.querySelectorAll('.result-text-name').forEach(el => {
+      saveAndSet(el, [['color', resColor]]);
+    });
+  }
+
+  html2canvas(resultsEl, { backgroundColor: bgColor }).then(canvas => {
+    saved.forEach(({ el, prev }) => {
+      Object.entries(prev).forEach(([prop, val]) => {
+        if (val) el.style.setProperty(prop, val, 'important');
+        else el.style.removeProperty(prop);
+      });
+    });
+
     const dataURL = canvas.toDataURL();
     const imgButton = document.querySelector('.finished.getimg.button');
     const resetButton = document.createElement('a');

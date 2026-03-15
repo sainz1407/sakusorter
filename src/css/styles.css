@@ -364,7 +364,19 @@ body {
 .progressfill {
   border-radius: 50px;
   height: 100%;
-  background: linear-gradient(90deg, var(--pink-500), #a855f7, var(--pink-400));
+  background: linear-gradient(90deg, var(--pink-500), var(--pink-700), var(--pink-400));
+  background-size: 200% 100%;
+  animation: gradientShift 3s ease infinite;
+  width: 0%;
+  transition: width 0.5s cubic-bezier(0.4, 0, 0.2, 1);
+  position: relative;
+  box-shadow: var(--progressfill-glow);
+}
+
+[data-theme="light"] .progressfill {
+  border-radius: 50px;
+  height: 100%;
+  background: linear-gradient(90deg, #ec4899, #f472b6, #f9a8d4);
   background-size: 200% 100%;
   animation: gradientShift 3s ease infinite;
   width: 0%;
