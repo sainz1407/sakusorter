@@ -128,16 +128,7 @@ function init() {
   if (window.location.search.slice(1) !== '') decodeQuery();
   populateOptions();
 
-  // Add event listeners for search links
-  document.querySelectorAll('.search-link').forEach(link => {
-    link.addEventListener('click', function(e) {
-      e.preventDefault();
-      const characterName = this.closest('.sort.text').querySelector('.character-name').textContent;
-      if (characterName) {
-        window.open(`https://www.google.com/search?q=${encodeURIComponent(characterName)}&tbm=isch`, '_blank');
-      }
-    });
-  });
+  // Search links are updated via updateSearchLinks() in display()
 
   // Theme toggle
   const themeToggle = document.getElementById('themeToggle');
@@ -162,12 +153,12 @@ function updateThemeIcon(theme) {
 }
 
 /** Update search links for left/right display */
-function updateSearchLinks(characterName, containerSelector) {
+function updateSearchLinks(character, containerSelector) {
   const container = document.querySelector(containerSelector);
   if (!container) return;
   const link = container.querySelector('.search-link');
-  if (link) {
-    link.href = `https://www.google.com/search?q=${encodeURIComponent(characterName)}&tbm=isch`;
+  if (link && character.profileUrl) {
+    link.href = character.profileUrl;
   }
 }
 
@@ -368,8 +359,8 @@ function display() {
   document.querySelector('.left.sort .character-name').textContent = leftChar.name;
   document.querySelector('.right.sort .character-name').textContent = rightChar.name;
 
-  updateSearchLinks(leftChar.name, '.left.sort .search-container');
-  updateSearchLinks(rightChar.name, '.right.sort .search-container');
+  updateSearchLinks(leftChar, '.left.sort .search-container');
+  updateSearchLinks(rightChar, '.right.sort .search-container');
 
   document.querySelector('.left.sort .search-container').classList.remove('d-none');
   document.querySelector('.right.sort .search-container').classList.remove('d-none');
