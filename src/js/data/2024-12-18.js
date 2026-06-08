@@ -176,7 +176,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Endo Hikari",
-    img: "akb48/images/c/ca/Endo_Hikari_S46_Feb_2026.jpg",
+    img: "akb48/images/a/ab/Endo_Hikari_S46_May_2026.jpg",
     profileUrl: "https://sakurazaka101.com/member/endo-hikari/",
     opts: {
       groups: [ "2gen" ],
@@ -184,7 +184,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Ozono Rei",
-    img: "akb48/images/f/f2/Ozono_Rei_S46_Feb_2026.jpg",
+    img: "akb48/images/1/13/Ozono_Rei_S46_May_2026.jpg",
     profileUrl: "https://sakurazaka101.com/member/ozono-rei/",
     opts: {
       groups: [ "2gen" ],
@@ -192,7 +192,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Onuma Akiho",
-    img: "akb48/images/e/e4/Onuma_Akiho_S46_Feb_2026.jpg",
+    img: "akb48/images/a/a8/Onuma_Akiho_S46_May_2026.jpg",
     profileUrl: "https://sakurazaka101.com/member/onuma-akiho/",
     opts: {
       groups: ["2gen"],
@@ -200,7 +200,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Kousaka Marino",
-    img: "akb48/images/d/dc/Kousaka_Marino_S46_Feb_2026.jpg",
+    img: "akb48/images/9/92/Kousaka_Marino_S46_May_2026.jpg",
     profileUrl: "https://sakurazaka101.com/member/kousaka-marino/",
     opts: {
       groups: ["2gen"],
@@ -217,14 +217,14 @@ dataSet[dataSetVersion].characterData = [
   {
     name: "Takemoto Yui",
     img: "akb48/images/c/c4/Takemoto_Yui_S46_Feb_2026.jpg",
-    profileUrl: "https://sakurazaka101.com/member/takemoto-yui/",
+    profileUrl: "https://sakurazaka101.com/graduate/takemoto-yui/",
     opts: {
-      groups: ["2gen"],
+      groups: ["2grad"],
     }
   },
   {
     name: "Tamura Hono",
-    img: "akb48/images/2/26/Tamura_Hono_S46_Feb_2026.jpg",
+    img: "akb48/images/9/9a/Tamura_Hono_S46_May_2026.jpg",
     profileUrl: "https://sakurazaka101.com/member/tamura-hono/",
     opts: {
       groups: ["2gen"],
@@ -232,7 +232,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Fujiyoshi Karin",
-    img: "akb48/images/7/77/Fujiyoshi_Karin_S46_Feb_2026.jpg",
+    img: "akb48/images/4/45/Fujiyoshi_Karin_S46_May_2026.jpg",
     profileUrl: "https://sakurazaka101.com/member/fujiyoshi-karin/",
     opts: {
       groups: ["2gen"],
@@ -240,7 +240,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Masumoto Kira",
-    img: "akb48/images/9/9c/Masumoto_Kira_S46_Feb_2026.jpg",
+    img: "akb48/images/d/d1/Masumoto_Kira_S46_May_2026.jpg",
     profileUrl: "https://sakurazaka101.com/member/masumoto-kira/",
     opts: {
       groups: ["2gen"],
@@ -248,7 +248,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Matsuda Rina",
-    img: "akb48/images/9/9e/Matsuda_Rina_S46_Feb_2026.jpg",
+    img: "akb48/images/c/c5/Matsuda_Rina_S46_May_2026.jpg",
     profileUrl: "https://sakurazaka101.com/member/matsuda-rina/",
     opts: {
       groups: ["2gen"],
@@ -264,7 +264,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Morita Hikaru",
-    img: "akb48/images/7/71/Morita_Hikaru_S46_Feb_2026.jpg",
+    img: "akb48/images/4/40/Morita_Hikaru_S46_May_2026.jpg",
     profileUrl: "https://sakurazaka101.com/member/morita-hikaru/",
     opts: {
       groups: ["2gen"],
@@ -272,7 +272,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Moriya Rena",
-    img: "akb48/images/3/3c/Moriya_Rena_S46_Feb_2026.jpg",
+    img: "akb48/images/a/a6/Moriya_Rena_S46_May_2026.jpg",
     profileUrl: "https://sakurazaka101.com/member/moriya-rena/",
     opts: {
       groups: ["2gen"],
@@ -280,7 +280,7 @@ dataSet[dataSetVersion].characterData = [
   }, 
   {
     name: "Yamasaki Ten",
-    img: "akb48/images/a/ad/Yamasaki_Ten_S46_Feb_2026.jpg",
+    img: "akb48/images/b/bf/Yamasaki_Ten_S46_May_2026.jpg",
     profileUrl: "https://sakurazaka101.com/member/yamasaki-ten/",
     opts: {
       groups: ["2gen"],
@@ -289,7 +289,7 @@ dataSet[dataSetVersion].characterData = [
   //3rd gen
   {
     name: "Ishimori Rika",
-    img: "akb48/images/0/00/Ishimori_Rika_S46_Feb_2026.jpg",
+    img: "akb48/images/e/ef/Ishimori_Rika_S46_May_2026.jpg",
     profileUrl: "https://sakurazaka101.com/member/ishimori-rika/",
     opts: {
       groups: ["3gen"],
@@ -297,7 +297,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Endo Riko",
-    img: "akb48/images/6/68/Endo_Riko_S46_Feb_2026.jpg",
+    img: "akb48/images/6/64/Endo_Riko_S46_May_2026.jpg",
     profileUrl: "https://sakurazaka101.com/member/endo-riko/",
     opts: {
       groups: ["3gen"],
@@ -305,7 +305,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Odakura Reina",
-    img: "akb48/images/8/8c/Odakura_Reina_S46_Feb_2026.jpg",
+    img: "akb48/images/9/93/Odakura_Reina_S46_May_2026.jpg",
     profileUrl: "https://sakurazaka101.com/member/odakura-reina/",
     opts: {
       groups: ["3gen"],
@@ -313,7 +313,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Kojima Nagisa",
-    img: "akb48/images/c/c5/Kojima_Nagisa_S46_Feb_2026.jpg",
+    img: "akb48/images/8/80/Kojima_Nagisa_S46_May_2026.jpg",
     profileUrl: "https://sakurazaka101.com/member/kojima-nagisa/",
     opts: {
       groups: ["3gen"],
@@ -321,7 +321,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Taniguchi Airi",
-    img: "akb48/images/6/6b/Taniguchi_Airi_S46_Feb_2026.jpg",
+    img: "akb48/images/6/66/Taniguchi_Airi_S46_May_2026.jpg/",
     profileUrl: "https://sakurazaka101.com/member/taniguchi-airi/",
     opts: {
       groups: ["3gen"],
@@ -329,7 +329,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Nakashima Yuzuki",
-    img: "akb48/images/0/02/Nakashima_Yuzuki_S46_Feb_2026.jpg",
+    img: "akb48/images/8/84/Nakashima_Yuzuki_S46_May_2026.jpg",
     profileUrl: "https://sakurazaka101.com/graduate/nakashima-yuzuki/",
     opts: {
       groups: ["3gen"],
@@ -337,7 +337,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Matono Mio",
-    img: "akb48/images/4/45/Matono_Mio_S46_Feb_2026.jpg",
+    img: "akb48/images/0/08/Matono_Mio_S46_May_2026.jpg",
     profileUrl: "https://sakurazaka101.com/member/matono-mio/",
     opts: {
       groups: ["3gen"],
@@ -345,7 +345,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Mukai Itoha",
-    img: "akb48/images/2/22/Mukai_Itoha_S46_Feb_2026.jpg",
+    img: "akb48/images/0/07/Mukai_Itoha_S46_May_2026.jpg",
     profileUrl: "https://sakurazaka101.com/member/mukai-itoha/",
     opts: {
       groups: ["3gen"],
@@ -353,7 +353,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Murai Yu",
-    img: "akb48/images/f/f8/Murai_Yu_S46_Feb_2026.jpg",
+    img: "akb48/images/8/8a/Murai_Yu_S46_May_2026.jpg",
     profileUrl: "https://sakurazaka101.com/member/murai-yu/",
     opts: {
       groups: ["3gen"],
@@ -361,7 +361,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Murayama Miu",
-    img: "akb48/images/a/a2/Murayama_Miu_S46_Feb_2026.jpg",
+    img: "akb48/images/1/19/Murayama_Miu_S46_May_2026.jpg",
     profileUrl: "https://sakurazaka101.com/member/murayama-miu/",
     opts: {
       groups: ["3gen"],
@@ -369,7 +369,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
 	name: "Yamashita Shizuki",
-	img: "akb48/images/d/d9/Yamashita_Shizuki_S46_Feb_2026.jpg",
+	img: "akb48/images/0/0f/Yamashita_Shizuki_S46_May_2026.jpg",
 	profileUrl: "https://sakurazaka101.com/member/yamashita-shizuki/",
 	opts: {
 	  groups: ["3gen"],
@@ -377,7 +377,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
   name: "Asai Konomi",
-  img: "akb48/images/0/01/Asai_Konomi_S46_Feb_2026.jpg",
+  img: "akb48/images/1/14/Asai_Konomi_S46_May_2026.jpg",
   profileUrl: "https://sakurazaka101.com/member/asai-konomi/",
   opts: {
     groups: ["4gen"],
@@ -385,7 +385,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
   name: "Inaguma Hina",
-  img: "akb48/images/8/87/Inaguma_Hina_S46_Feb_2026.jpg",
+  img: "akb48/images/d/dd/Inaguma_Hina_S46_May_2026.jpg",
   profileUrl: "https://sakurazaka101.com/member/inaguma-hina/",
   opts: {
     groups: ["4gen"],
@@ -393,7 +393,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
   name: "Katsumata Haru",
-  img: "akb48/images/0/05/Katsumata_Haru_S46_Feb_2026.jpg",
+  img: "akb48/images/d/d4/Katsumata_Haru_S46_May_2026.jpg",
   profileUrl: "https://sakurazaka101.com/member/katsumata-haru/",
   opts: {
     groups: ["4gen"],
@@ -401,7 +401,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
   name: "Sato Neo",
-  img: "akb48/images/9/9b/Sato_Neo_S46_Feb_2026.jpg",
+  img: "akb48/images/f/f0/Sato_Neo_S46_May_2026.jpg",
   profileUrl: "https://sakurazaka101.com/member/sato-neo/",
   opts: {
     groups: ["4gen"],
@@ -409,7 +409,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
   name: "Nakagawa Chihiro",
-  img: "akb48/images/7/73/Nakagawa_Chihiro_S46_Feb_2026.jpg",
+  img: "akb48/images/d/db/Nakagawa_Chihiro_S46_May_2026.jpg",
   profileUrl: "https://sakurazaka101.com/member/nakagawa-chihiro/",
   opts: {
     groups: ["4gen"],
@@ -417,7 +417,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Matsumoto Wako",
-    img: "akb48/images/5/58/Matsumoto_Wako_S46_Feb_2026.jpg",
+    img: "akb48/images/4/48/Matsumoto_Wako_S46_May_2026.jpg",
     profileUrl: "https://sakurazaka101.com/member/matsumoto-wako/",
     opts: {
       groups: ["4gen"],
@@ -425,7 +425,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
 	name: "Meguro Hiiro",
-	img: "akb48/images/8/8f/Meguro_Hiiro_S46_Feb_2026.jpg",
+	img: "akb48/images/3/39/Meguro_Hiiro_S46_May_2026.jpg",
 	profileUrl: "https://sakurazaka101.com/member/meguro-hiiro/",
 	opts: {
 	  groups: ["4gen"],
@@ -433,7 +433,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
   name: "Yamakawa Ui",
-  img: "akb48/images/0/0e/Yamakawa_Ui_S46_Feb_2026.jpg",
+  img: "akb48/images/d/d0/Yamakawa_Ui_S46_May_2026.jpg",
   profileUrl: "https://sakurazaka101.com/member/yamakawa-ui/",
   opts: {
     groups: ["4gen"],
@@ -441,7 +441,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
 	name: "Yamada Momomi",
-	img: "akb48/images/a/ac/Yamada_Momomi_S46_Feb_2026.jpg",
+	img: "akb48/images/7/77/Yamada_Momomi_S46_May_2026.jpg",
 	profileUrl: "https://sakurazaka101.com/member/yamada-momomi/",
 	opts: {
 	  groups: ["4gen"],
